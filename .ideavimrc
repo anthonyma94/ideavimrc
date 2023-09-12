@@ -1,0 +1,13 @@
+Plug 'tpope/vim-surround'
+
+
+inoremap jk <Esc>
+
+" Copies to clipboard
+nnoremap yy "+yy
+vnoremap y "+y
+
+nnoremap p "+p
+vnoremap p "+p
+nnoremap P "+P
+vnoremap P "+P
